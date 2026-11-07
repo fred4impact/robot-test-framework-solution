@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Robot Framework / pabot output
+results/
+output.xml
+log.html
+report.html
+pabot_results/
+.pabotsuitenames
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

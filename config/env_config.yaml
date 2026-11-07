@@ -1,0 +1,24 @@
+# config/env_config.yaml
+# Environment settings, loaded as a Robot Framework VARIABLE FILE:
+#
+#   robot --variablefile config/env_config.yaml tests/
+#
+# (run_tests.sh does this automatically. Requires the `pyyaml` package.)
+#
+# Priority (highest wins):
+#   --variable NAME:value  >  --variablefile (this file)  >  *** Variables *** in resources/variables.robot
+#
+# So values here override resources/variables.robot, and command-line
+# --variable values override this file. Each top-level key becomes ${KEY}.
+#
+# To support several environments, copy this file (e.g. env_staging.yaml)
+# and point --variablefile at the one you want.
+
+BASE_URL: https://www.saucedemo.com
+BROWSER: chrome
+
+WINDOW_WIDTH: 1920
+WINDOW_HEIGHT: 1080
+
+# Seconds
+EXPLICIT_WAIT: 15

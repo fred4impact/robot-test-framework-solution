@@ -1,0 +1,38 @@
+# requirements.txt for Robot Framework
+
+# Core Robot Framework
+robotframework==7.0
+robotframework-seleniumlibrary==6.1.3
+webdriver-manager==4.0.1
+
+# Browser Drivers
+selenium==4.15.2
+
+# Libraries & Extensions
+robotframework-requests==0.9.7
+robotframework-databaselibrary==1.4.3
+robotframework-pabot==2.20.0  # Parallel execution
+
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Reporting & Logging
+robotframework-allurereport==1.1.1
+
+# Code Quality & Linting
+robotframework-robocop==5.0.1
+
+# Optional: Image comparison testing
+robotframework-imagehorizonlibrary
+
+# Optional: REST API testing
+robotframework-restinstance==1.8.0
+
+robotframework-tidy
+robotframework-requests
+robotframework-jsonlibrary
+
+
+
